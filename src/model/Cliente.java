@@ -1,20 +1,18 @@
 package model;
 
 public class Cliente {
-    
+     private String nombrecompletoc;
+    private int edad;
+    private String numerocedula;
 
-
-    public Cliente(){
+    public Cliente(String nombrecompletoc, int edad, String numerocedula){
+        this.nombrecompletoc = nombrecompletoc;
+        this.edad = edad;
+        this.numerocedula = numerocedula;
 
 
     }
 
-     /*
-     * ATENCION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-     * El siguiente metodo esta incompleto.
-     * Agregue los parametros y retorno que sean pertinentes.
-     * Agregue la logica necesaria.
-     */
     public void getCuentasList() {
 
     }
